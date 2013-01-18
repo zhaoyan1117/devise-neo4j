@@ -2,12 +2,12 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "rails", "~> 3.2.3"
-gem "omniauth", "~> 1.0.0"
-gem "omniauth-oauth2", "~> 1.0.0"
+gem "rails"
+gem "omniauth"
+gem "omniauth-oauth2"
 gem "rdoc"
 gem 'neo4j'
-gem 'devise'
+gem "devise", ">= 2.2.0"
 group :test do
   gem "omniauth-facebook"
   gem "omniauth-openid", "~> 1.0.1"
